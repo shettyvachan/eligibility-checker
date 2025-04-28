@@ -98,6 +98,9 @@ st.title("📜 Legal Rule-Based Eligibility Checker")
 st.markdown("Enter the applicant's details to check their eligibility based on predefined Prolog rules.")
 st.markdown("_(Example: Simplified Work Visa)_")
 
+with st.sidebar:
+    st.image('vcet-logo@2x.png')
+    
 # --- Initialize Prolog ---
 try:
     prolog = Prolog()
